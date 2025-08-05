@@ -6,7 +6,7 @@ import ProfilePage from './pages/ProfilePage.jsx';
 
 const App = () => {
   return (
-    <div className="">
+    <div className=" bg-stone-950 bg-contain ">
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/login' element={<LoginPage />} />
